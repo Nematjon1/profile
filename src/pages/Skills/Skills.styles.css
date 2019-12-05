@@ -1,0 +1,39 @@
+.skills {
+  font-size: 1.1rem;
+}
+
+.skills__group {
+  padding: 0.4rem 0.6rem;
+  box-shadow: 2px 3px 7px rgba(0,0,0, 0.2);
+  border-radius: 0.5rem;
+  border: 2px solid hsl(200, 40%, 80%);
+  max-width: 600px;
+  width: 100%;
+  margin: 0.5rem auto;
+  background-color: hsl(200, 60%, 95%);
+}
+
+.skills__title {
+  margin: 0.3rem 0;
+  text-align: center;
+  color: hsl(200, 80%, 35%);
+}
+
+.skills__list {
+  list-style: none;
+  margin: 0.3rem 0.5rem;
+  display: flex;
+  flex-flow: wrap;
+}
+
+.skills__list > li {
+  background-color: hsl(200, 90%, 90%);
+  width: auto;
+  padding: 0.2rem 0.5rem;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+
+.skills__list > li:not(:last-of-type) {
+  margin-right: 0.5rem;
+}
