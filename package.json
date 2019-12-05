@@ -2,7 +2,7 @@
   "name": "profile",
   "author": "Nematjon Abdulloev",
   "version": "1.0.0",
-  "homepage": "https://Nematjon1.github.io/profile",
+  "homepage": "https://Nematjon1.github.io/",
   "private": true,
   "dependencies": {
     "gh-pages": "^2.1.1",
