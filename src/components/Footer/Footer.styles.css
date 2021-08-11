@@ -3,4 +3,11 @@
   justify-content: center;
   align-items: center;
   padding: 1rem 1.5rem;
+  width: 100%;
+}
+
+@media screen and (max-wdth: 425px) {
+  .footer {
+    width: 370px;
+  }
 }

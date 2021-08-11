@@ -1,7 +1,9 @@
 .home {
   display: flex;
   align-items: center;
-  padding: 4rem 1.3rem;
+  position: relative;
+  top: 3.3rem;
+  height: 87vh;
 }
 
 .home__hero {
@@ -9,8 +11,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 280px;
-  max-width: 600px;
+  height: 100%;
+  max-width: 100%;
   margin: 0 auto;
   width: 100%;
 }
@@ -19,19 +21,65 @@
   box-shadow: 0px 5px 7px rgba(0,0,0, 0.3);
   flex: 40%;
   height: 100%;
+  overflow: hidden;
   width: 100%;
   background-image: linear-gradient(to bottom left, hsl(200, 40%, 95%), hsl(199, 50%, 95%));
 }
 
+.motion img {
+  filter: brightness(0.4);
+  height: 100%;
+}
+
+.image-ref {
+  position: relative;
+  top: -30px;
+}
+.image-ref a {
+  color: inherit;
+}
 .main {
   position: absolute;
   flex: 60%;
   padding: 0 0.5rem;
+  color: lightgray;
+  transform: translate(3%, -44%);
 }
 
 .main__title {
   letter-spacing: 2px;
-  font-size: 2rem;
+  font-size: 3rem;
+  font-weight: 400;
   text-transform: capitalize;
+  margin-bottom: 0.5rem;
+}
 
+.main__subtitle {
+  margin-top: 0;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1024px) {
+  .home {
+    height: 85vh;
+  }
+}
+
+@media screen and (max-width: 425px) {
+
+  .home {
+    height: 83vh;
+  }
+
+  .main__title {
+    font-size: 1.8rem;
+  }
+
+  .main__subtitle {
+    font-size: 1rem;
+    width: 240px;
+  }
+
+  
 }

@@ -5,7 +5,8 @@ import Project from "../../components/Project/Project.component";
 import "./Projects.styles.css";
 
 const Projects = props => {
-  const projects = [{
+  const projects = null;
+  /*const projects2 = [{
     id: 1,
     name: "ChatsApp",
     description: "React and NodeJS application. State implemented in Redux. Server-side in Express, RESTful API architecture.MongoDB for data storage. JSON Web Tokens for user's tokens, bcryptjs for encrypting passwords. Error handling implemented in server and client sides. This application is fully responsive. Structured to expand and future project support. Implemented B.E.M. methodology and CSS Modules.",
@@ -26,12 +27,14 @@ const Projects = props => {
     link: "https://blogsapp-nematjon.herokuapp.com",
     description: "Implemented in pure JavaScript. Server-side in NodeJS with Express. Data storage implemented in the MongoDB. User's authentication implemented with sessions. Used OOP paradigm for better code maintainability. Responsive and mobile-first design. Implemented data sanitization to prevent cross-site resource forging."
   }];
+  */
 
   return (
     <div className="pt-4 projects">
-      {projects.map(({id, ...otherProject}) => {
+      {projects && projects.map(({id, ...otherProject}) => {
         return (<Project key={id} {...otherProject} />);
       })}
+      {projects === null && <h3 className="center">This Page is in Progress!</h3>}
     </div>
   );
 };
