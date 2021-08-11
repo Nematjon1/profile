@@ -10,7 +10,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: linear-gradient(to bottom right, hsl(200, 80%, 91%), hsl(200, 80%, 93%));
+  background-image: linear-gradient(to bottom right, hsl(200, 80%, 93%), hsl(200, 80%, 96%));
   background-size: cover;
   background-repeat: no-repeat;
   padding: 0;
