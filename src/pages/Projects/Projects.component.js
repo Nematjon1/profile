@@ -5,7 +5,12 @@ import Project from "../../components/Project/Project.component";
 import "./Projects.styles.css";
 
 const Projects = props => {
-  const projects = null;
+  const projects = [{
+    id: 1,
+    name: "Tic Tac Toe Game",
+    description: "Implemented in React library. The game has a time-travel history. Implemented React best practices and modern patterns. The game offers good UI interaction. The game also responsive. Maintainable and clear code structure.",
+    "link": "/tic-tac-toe"
+  }];
   /*const projects2 = [{
     id: 1,
     name: "ChatsApp",

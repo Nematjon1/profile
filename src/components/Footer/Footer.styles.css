@@ -4,9 +4,11 @@
   align-items: center;
   padding: 1rem 1.5rem;
   width: 100%;
+  position: relative;
+  top: 1rem;
 }
 
-@media screen and (max-wdth: 425px) {
+@media screen and (max-width: 425px) {
   .footer {
     width: 370px;
   }

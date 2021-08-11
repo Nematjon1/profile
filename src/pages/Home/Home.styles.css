@@ -2,8 +2,8 @@
   display: flex;
   align-items: center;
   position: relative;
-  top: 3.3rem;
-  height: 87vh;
+  top: 2.8rem;
+  height: 85vh;
 }
 
 .home__hero {
@@ -81,5 +81,5 @@
     width: 240px;
   }
 
-  
+
 }
