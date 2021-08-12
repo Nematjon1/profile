@@ -10,6 +10,11 @@ const Projects = props => {
     name: "Tic Tac Toe Game",
     description: "Implemented in React library. The game has a time-travel history. Implemented React best practices and modern patterns. The game offers good UI interaction. The game also responsive. Maintainable and clear code structure.",
     "link": "/tic-tac-toe"
+  }, {
+    id: 2,
+    name: "Calculator Applicaton",
+    description: "Calculator application implemented in React with Redux Toolkit. It performs all math operations. Edge cases also has been taken into account.",
+    "link": "/calculator"
   }];
   /*const projects2 = [{
     id: 1,
@@ -21,11 +26,6 @@ const Projects = props => {
     name: "BurgerConstructor",
     link: "https://burger-constructor-nematjon.herokuapp.com",
     description: "Beginning to end the full-stack project in React. Implemented Hooks API and modern React work-flow. The state implemented in the Redux state manangement library. Back-end  and data storage implemented in Firebase. Responsive design and mobile-first technique. Implemented data serialization in input fields."
-  }, {
-    id: 3,
-    name: "Tik Tak Toe Game",
-    link: "https://burger-constructor-nematjon.herokuapp.com",
-    description: "Implemented in React library. The game has a time-travel history. Implemented React best practices and modern patterns. The game offers good UI interaction. The game also responsive. Maintainable and clear code structure."
   }, {
     id: 4,
     name: "BlogsApp",

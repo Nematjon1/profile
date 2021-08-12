@@ -1,9 +1,14 @@
 import React from "react";
-import { connect } from "react-redux";
+import { useDispatch } from "react-redux";
 
-import { computation } from "../redux/calculator/calculator.actions";
+import { computation } from "./calculator/calculator.reducer";
 
-export const NumberButton = ({value, handleClick}) => {
+export const NumberButton = ({value}) => {
+
+  const dispatch = useDispatch();
+  const handleClick = e => {
+    dispatch(computation(value));
+  }
   return (
     <button
       onClick={() => handleClick(value)} 
@@ -15,11 +20,5 @@ export const NumberButton = ({value, handleClick}) => {
   );
 };
 
-const mapDispatchToProps = dispatch => {
-  return {
-    handleClick: (value) => dispatch(computation(value))
-  };
-};
-
-export default connect(null, mapDispatchToProps)(NumberButton);
+export default NumberButton;
 

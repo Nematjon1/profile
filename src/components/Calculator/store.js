@@ -1,9 +1,12 @@
-import { createStore, applyMiddleware } from "redux";
+import { configureStore } from "@reduxjs/toolkit";
 
-import rootReducer from "./rootReducer";
+import calcReducer from "./calculator/calculator.reducer";
 
-const middlewares = [];
-const store = createStore(rootReducer, applyMiddleware(...middlewares));
+const store = configureStore({
+	reducer: {
+        calc: calcReducer
+    }
+});
 
 
 export default store;

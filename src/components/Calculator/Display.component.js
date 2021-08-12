@@ -1,18 +1,13 @@
 import React from "react";
-import {connect} from "react-redux";
+import { useSelector } from "react-redux";
 
-export const Display = ({currentNum, isEmpty}) => {
+export const Display = () => {
+  const currentNum = useSelector(state => state.calc.currentNum)
+  const isEmpty = useSelector(state => state.calc.isEmpty);
   return (
     <div className={`display ${isEmpty ? "display__empty" : "display__notEmpty"}`}>
       {currentNum}
     </div>
   );
 };
-
-const mapStateToProps = ({calc}) => {
-  return {
-    currentNum: calc.currentNum,
-    isEmpty: calc.isEmpty
-  };
-}
-export default connect(mapStateToProps)(Display);
+export default Display;

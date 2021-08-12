@@ -3,8 +3,13 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  position: relative;
   justify-content: space-between;
   color: hsl(200, 25%, 30%);
+}
+
+.hidden-lg {
+  display: none;
 }
 
 .text-muted {
@@ -19,3 +24,15 @@
 .pt-2 { padding-top: 4vh; }
 .pt-3 { padding: 6vh; }
 .pt-4 { padding-top: 8vh; }
+
+@media screen and (max-width: 768px) {
+  .hidden-md {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .hidden-sm {
+    display: none;
+  }
+}
