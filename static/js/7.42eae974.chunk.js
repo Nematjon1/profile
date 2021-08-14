@@ -1,0 +1,2 @@
+(this.webpackJsonpprofile=this.webpackJsonpprofile||[]).push([[7],{44:function(c,t,e){},49:function(c,t,e){"use strict";e.r(t);e(0),e(44);var n=e(1);t.default=function(c){return Object(n.jsx)("div",{className:"pt-4 contact",children:Object(n.jsx)("div",{className:"contact__info",children:Object(n.jsxs)("p",{children:["Check out my",Object(n.jsx)("a",{href:"https://github.com/Nematjon1",children:"Github Account"}),"for reference."]})})})}}}]);
+//# sourceMappingURL=7.42eae974.chunk.js.map
