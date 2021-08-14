@@ -1,5 +1,6 @@
 .projects {
   display: flex;
   flex-flow: wrap;
+  height: 85vh;
 }
 

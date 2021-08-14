@@ -79,7 +79,8 @@ const calcSlice = createSlice({
           state.isEmpty = true;
           break;
         case action.payload === "=":
-          state.currentNum = eval(state.currentNum);
+          // eslint-disable-next-line
+          state.currentNum = Function("return " + state.currentNum)();
           state.hasOperator = false;
           state.hasDecimal = true;
           state.isEmpty = false;
