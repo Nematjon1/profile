@@ -16,23 +16,6 @@ const Projects = props => {
     description: "Calculator application implemented in React with Redux Toolkit. It performs all math operations. Edge cases also has been taken into account.",
     "link": "/calculator"
   }];
-  /*const projects2 = [{
-    id: 1,
-    name: "ChatsApp",
-    description: "React and NodeJS application. State implemented in Redux. Server-side in Express, RESTful API architecture.MongoDB for data storage. JSON Web Tokens for user's tokens, bcryptjs for encrypting passwords. Error handling implemented in server and client sides. This application is fully responsive. Structured to expand and future project support. Implemented B.E.M. methodology and CSS Modules.",
-    link: "https://chatsapp-client-na.herokuapp.com"
-  }, {
-    id: 2,
-    name: "BurgerConstructor",
-    link: "https://burger-constructor-nematjon.herokuapp.com",
-    description: "Beginning to end the full-stack project in React. Implemented Hooks API and modern React work-flow. The state implemented in the Redux state manangement library. Back-end  and data storage implemented in Firebase. Responsive design and mobile-first technique. Implemented data serialization in input fields."
-  }, {
-    id: 4,
-    name: "BlogsApp",
-    link: "https://blogsapp-nematjon.herokuapp.com",
-    description: "Implemented in pure JavaScript. Server-side in NodeJS with Express. Data storage implemented in the MongoDB. User's authentication implemented with sessions. Used OOP paradigm for better code maintainability. Responsive and mobile-first design. Implemented data sanitization to prevent cross-site resource forging."
-  }];
-  */
 
   return (
     <div className="pt-4 projects">
